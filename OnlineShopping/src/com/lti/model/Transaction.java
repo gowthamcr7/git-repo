@@ -5,6 +5,7 @@ import java.time.LocalDate;
 public class Transaction {
 	int transactionId;
 	LocalDate transactionDate;
+	double amount;
 	public int getTransactionId() {
 		return transactionId;
 	}
@@ -23,6 +24,5 @@ public class Transaction {
 	public void setAmount(double amount) {
 		this.amount = amount;
 	}
-	double amount;
 
 }
