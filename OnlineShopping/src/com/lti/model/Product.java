@@ -4,6 +4,11 @@ public class Product {
 	int productId;
 	String productName;
 	String produuctDescription;
+	int quantity;
+	
+	public int getquantity() {
+		return quantity;
+		
 	public int getProductId() {
 		return productId;
 	}
