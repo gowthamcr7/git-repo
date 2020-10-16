@@ -5,6 +5,11 @@ public class Product {
 	String productName;
 	String produuctDescription;
 	int quantity;
+	double price;
+	
+	
+	public int getprice() {
+		return price;
 	
 	public int getquantity() {
 		return quantity;
