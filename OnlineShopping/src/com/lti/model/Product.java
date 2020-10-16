@@ -4,6 +4,12 @@ public class Product {
 	int productId;
 	String productName;
 	String produuctDescription;
+	int quantity;
+	double pric;
+	
+	
+	public int getpric() {
+		return pric;
 	
 		
 	public int getProductId() {
